@@ -162,7 +162,7 @@ I built this vertical specifically because I've lived the user problem. At Orra,
 ## Built By
 
 Funsho Akinbile — Web3 Growth & Ecosystem Operator  
-[X](https://x.com/your-handle) · [LinkedIn](https://linkedin.com/in/your-profile)
+[X](https://x.com/funshoakinbile) · [LinkedIn](https://linkedin.com/in/funsho-akinbile-ops)
 
 Built as a take-home submission for [Aomi](https://aomi.dev).  
 Started: Thursday, April 24, 2026.
