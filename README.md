@@ -96,7 +96,7 @@ This assistant wraps Polymarket's public APIs as Aomi tools. When a user asks "w
 
 Every on-chain action runs through Aomi's simulation-first pipeline:
 
-```
+```text
 User intent → AI constructs transaction → Anvil simulation → 
 User sees exact outcome → User confirms → Wallet signs
 ```
@@ -107,7 +107,7 @@ The AI never executes anything the user did not explicitly approve.
 
 ## Project Structure
 
-```
+```text
 aomi-polymarket-demo/
 ├── app/
 │   ├── layout.tsx          # Root layout with TooltipProvider
@@ -129,7 +129,7 @@ aomi-polymarket-demo/
 
 Once configured, try these in the chat:
 
-```
+```text
 "Find me the highest volume prediction markets right now"
 "What's the current probability on Trump winning the 2026 midterms?"
 "Show me crypto markets with the most movement today"
