@@ -91,7 +91,7 @@ This assistant wraps Jupiter Perpetuals on-chain data as Aomi tools. When a trad
 
 Every on-chain action runs through Aomi's simulation-first pipeline:
 
-```
+```plaintext
 User intent → AI constructs transaction → Anvil simulation →
 User sees exact outcome → User confirms → Wallet signs
 ```
@@ -103,16 +103,20 @@ The AI never executes anything the user did not explicitly approve.
 ## API Routes
 
 ### GET /api/market-price
+
 Returns real-time prices for SOL, ETH, BTC.
 
-```
+```text
 /api/market-price?tokens=SOL,ETH,BTC
 ```
 
+---
+
 ### GET /api/positions
+
 Reads open Jupiter Perps positions from the Solana blockchain.
 
-```
+```text
 /api/positions?wallet=YOUR_WALLET_ADDRESS
 ```
 
@@ -120,7 +124,7 @@ Reads open Jupiter Perps positions from the Solana blockchain.
 
 ## Example Prompts
 
-```
+```text
 "What are my open positions right now?" [paste wallet address]
 "What's my liquidation price on my SOL long?"
 "How much margin do I need to add to survive a 20% SOL drop?"
